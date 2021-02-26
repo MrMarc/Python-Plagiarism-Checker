@@ -24,6 +24,14 @@
 
 
 class Pdf:
+    def __init__(self):
+        '''
+           If this class is instantiated, the user wants a PDF.
+           The create flag not set otherwise.
+        '''
+
+        self.create = True
+
     def get_title(self):
         '''
             Customize the title for the PDF report.
